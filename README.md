@@ -1,16 +1,10 @@
-## go-fitz
-[![Build Status](https://github.com/JoKr4/go-fitz-nolibs/actions/workflows/test.yml/badge.svg)](https://github.com/JoKr4/go-fitz-nolibs/actions)
-[![GoDoc](https://godoc.org/github.com/JoKr4/go-fitz-nolibs?status.svg)](https://godoc.org/github.com/JoKr4/go-fitz-nolibs)
-[![Go Report Card](https://goreportcard.com/badge/github.com/JoKr4/go-fitz-nolibs?branch=master)](https://goreportcard.com/report/github.com/JoKr4/go-fitz-nolibs)
+## go-fitz-nolibs
 
 Go wrapper for [MuPDF](http://mupdf.com/) fitz library that can extract pages from PDF, EPUB and MOBI documents as images, text, html or svg.
 
-### Build tags
+### Build
 
-* `extlib` - use external MuPDF library
-* `static` - build with static external MuPDF library (used with `extlib`)
-* `pkgconfig` - enable pkg-config (used with `extlib`)
-* `musl` - use musl compiled library
+TODO msys2, mingw etc
     
 ### Example
 ```go
