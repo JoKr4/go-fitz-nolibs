@@ -8,7 +8,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/gen2brain/go-fitz"
+	"github.com/JoKr4/go-fitz-nolibs"
 )
 
 func TestImage(t *testing.T) {
@@ -183,7 +183,7 @@ func TestPNG(t *testing.T) {
 	if err != nil {
 		t.Error(err)
 	}
-	
+
 	defer doc.Close()
 
 	tmpDir, err := os.MkdirTemp(os.TempDir(), "fitz")
